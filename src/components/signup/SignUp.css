@@ -1,0 +1,82 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-input label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-email,
+.form-username,
+.form-nombre,
+.form-contraseña,
+.form-confirmar {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.form-email:focus,
+.form-username:focus,
+.form-nombre:focus,
+.form-contraseña:focus,
+.form-confirmar:focus {
+    outline: none;
+    background-color: #e6e6e6;
+}
+
+.form-button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.form-button:hover {
+    background-color: #0069d9;
+}
+
+.form-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.form-link p {
+    margin-right: 0.5rem;
+}
+
+.form-signin-button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-signin-button:hover {
+    background-color: #5a6268;
+}
